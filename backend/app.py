@@ -139,6 +139,8 @@ def health():
     return jsonify({'status': 'OK'})
 
 if __name__ == '__main__':
-    print("🚀 Flask API running on http://localhost:5000")
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    print("🚀 Flask API running")
     print("📊 Rule-based diagnosis system active\n")
-    app.run(debug=True, port=5000)
+    app.run(debug=False, host='0.0.0.0', port=port)
