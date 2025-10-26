@@ -51,7 +51,7 @@ function DiagnosePageContent() {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5000/predict', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
