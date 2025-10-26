@@ -1,22 +1,9 @@
-\# MedicalNidhanSystem 🏥
-
-
+\ **MedicalNidhanSystem** 🏥
 
 > \*\*AI-Powered Multimodal Disease Diagnosis System\*\* using advanced Machine Learning algorithms for medical research and educational purposes.
 
 
-
-\[!\[GitHub](https://img.shields.io/badge/GitHub-PRATIK--DWIVEDI11%2FMedicalNidhanSystem-blue?logo=github)](https://github.com/PRATIK-DWIVEDI11/MedicalNidhanSystem)
-
-\[!\[Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
-
-\[!\[License](https://img.shields.io/badge/License-MIT-green)]()
-
-
-
 ---
-
-
 
 \## 📋 Table of Contents
 
@@ -37,10 +24,6 @@
 \- \[Usage](#-usage)
 
 \- \[Project Structure](#-project-structure)
-
-\- \[API Documentation](#-api-documentation)
-
-\- \[Screenshots](#-screenshots)
 
 \- \[Deployment](#-deployment)
 
@@ -525,110 +508,7 @@ python app.py
 \- Filter and export history
 
 
-
 ---
-
-
-
-\## 🔌 API Documentation
-
-
-
-\### Base URL
-
-
-
-http://localhost:5000
-
-
-
-
-
-\### Endpoints
-
-
-
-\#### 1. \*\*POST /predict\*\*
-
-Generates diagnosis prediction
-
-
-
-\*\*Request:\*\*
-
-{
-
-"age": 45,
-
-"gender": "M",
-
-"temperature": 101.5,
-
-"heart\_rate": 95,
-
-"spo2": 94,
-
-"cough": 1,
-
-"fever": 1,
-
-"breathing\_issue": 1,
-
-"has\_image": false
-
-}
-
-
-
-
-
-\*\*Response:\*\*
-
-{
-
-"diagnosis": "Pneumonia",
-
-"confidence": 87.45,
-
-"probabilities": {
-
-"Normal": 5.32,
-
-"Pneumonia": 87.45,
-
-"COVID-19": 7.23
-
-}
-
-}
-
-
-
-
-
-\#### 2. \*\*GET /health\*\*
-
-Health check
-
-
-
-\*\*Response:\*\*
-
-
-
-{
-
-"status": "OK",
-
-"message": "API is running"
-
-}
-
-
-
----
-
-
 
 \## 🌐 Deployment
 
@@ -658,15 +538,15 @@ Add environment variables in Vercel dashboard
 
 
 
-\*\*Live\*\*: \[https://medical-nidhan-system.vercel.app](https://medical-nidhan-system.vercel.app)
+\*\*Live\*\*: \[[https://medical-nidhan-system.vercel.app](https://medicalnidhansystem.vercel.app/)]
 
 
 
-\### Backend (Railway/Render)
+\### Backend (Render)
 
 
 
-Create account on Railway or Render
+Create account on Render
 
 Connect GitHub repository
 
@@ -678,7 +558,7 @@ Deploy automatically
 
 
 
-\*\*Live API\*\*: \[https://medical-nidhan-api.railway.app](https://medical-nidhan-api.railway.app)
+\*\*Live API\*\*: \[[https://medical-nidhan-api.railway.app](https://medicalnidhansystem-backend.onrender.com)]
 
 
 
@@ -804,15 +684,13 @@ This project demonstrates:
 
 \*\*Pratik Dwivedi\*\*
 
+\- 🎓 Full Stack Developer having expertise in MERN , Nextjs and GoLang
+
 \- 🎓 AIDS Mini Project
 
-\- 📧 Email: \[your-email@example.com]
+\- 📧 Email: \[pratikdwivedi107@gmail.com]
 
 \- 🔗 GitHub: \[@PRATIK-DWIVEDI11](https://github.com/PRATIK-DWIVEDI11)
-
-\- 🐦 Twitter: \[@your\_twitter]
-
-
 
 ---
 
@@ -859,32 +737,5 @@ For issues, questions, or suggestions:
 \- scikit-learn for ML algorithms
 
 \- Medical domain guidance
-
-
-
 ---
-
-
-
-\*\*Made with ❤️ for medical AI education\*\*
-
-
-
----
-
-
-
-\## Quick Links
-
-
-
-\- 📖 \[Setup Guide](#-installation)
-
-\- 🔌 \[API Docs](#-api-documentation)
-
-\- 🚀 \[Deployment](#-deployment)
-
-\- ⚠️ \[Disclaimer](#-medical-disclaimer)
-
-
 
